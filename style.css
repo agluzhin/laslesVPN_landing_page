@@ -76,6 +76,8 @@ a {
 	font-weight: 400;
 	font-size: 16px;
 	color: #4F5665;
+
+	margin-bottom: 103px;
 }
 
 .description__content {
@@ -107,7 +109,7 @@ a {
 	font-weight: 500;
 }
 
-.content__button {
+.content__button-btn {
 	width: 250px;
 	height: 60px;
 	display: flex;
@@ -116,4 +118,52 @@ a {
 	color: #FFFFFF;
 	background: #F53838;
 	border-radius: 10px;
+}
+
+.main__statistics {
+	width: 1140px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 37.21px 90.5px 37.21px 91px;
+
+	font-family: 'Rubik';
+	font-size: 20px;
+	color: #4F5665;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.splitter {
+	width: 0px;
+	height: 125.57px;
+	border: 2px solid #EEEFF2;
+}
+
+.users__icon, .locations__icon, .servers__icon {
+	padding: 15.5px;
+	background: #FFECEC;
+	border-radius: 70px;
+}
+
+.users__info-caption, .locations__info-caption, .servers__info-caption {
+	font-weight: 400;
+}
+
+.users__info-stat, .locations__info-stat, .servers__info-stat {
+	font-weight: 700;
+	font-size: 25px;
+	color: #0B132A;
+}
+
+.statistics__block {
+	display: flex;
+	gap: 36.5px;
+}
+
+.statics__block-info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
